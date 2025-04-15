@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.Heading_for_Home_section{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    width: 600px;
+}
+.Image_for_home_page{
+    width: 350px;
+    height: 350px;
+}
+.Home_whole_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
