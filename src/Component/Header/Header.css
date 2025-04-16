@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.LogoHeading{
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.pageslink{
+    list-style: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+}
+.Paging_section_header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.signup_btn{
+    width: 100px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.Header_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60%;
+}
+

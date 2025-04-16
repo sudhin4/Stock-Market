@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+.Image_for_branding{
+    width: 55px;
+    height: 55px;
+    
+}
+.company_name{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+}
+.stock_price_of_cmp{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    color: green;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.INr___{
+    color: black;
+}
+.today_percentage_of_the_stock{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    color: red;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+   
+}
+.today-----{
+    color: black;
+}
+.content_of_the_company{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+.full_stockImage_div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

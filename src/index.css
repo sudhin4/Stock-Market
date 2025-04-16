@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .Heading_for_Home_section{
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     width: 600px;
 }
 .Image_for_home_page{
@@ -15,4 +17,55 @@
     justify-content: center;
     align-items: center;
     gap: 10%;
+}
+
+.caption_div_home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+}
+.paragraph_for_Home_section{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    width: 480px;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.explore_now_btn{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.Explore_btn_Now-btn{
+    display: flex;
+    justify-content: center;
+}
+.rigth_arrow_icon{
+    position: relative;
+    top: 2px;
+}
+.stockIMage_divvv{
+    position: absolute;
+    z-index: 11;
+}
+.tataaa{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+.adani{
+    position: absolute;
+    right: -35px;
+    top: 30px;
 }
