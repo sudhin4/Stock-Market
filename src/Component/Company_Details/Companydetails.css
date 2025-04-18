@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Logo_main_details_heading{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.822);
+    position: relative;
+    left: 20px;
+    top: 24px;
+}
+.image_div{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.Name_heading{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.heading_maindetails{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.data_maindetails_string{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+}
+.data_maindetails{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+}
+.company_details_div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    padding: 20px;
+    max-width: max-content;
+    border-radius: 10px;
+    margin: 20px;
+    
+    
+}
+.name_type_data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.marketcap__{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.market_cap_price{
+    color: green;
+}
+.sharePrice_price{
+    color: green;
+}
+.million_heading{
+    color: black;
+}
+.label_ipo_date{
+    font-weight: 500;
+}
+/* Stockprice */
+
+.heading_stockPrice{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+}
+.price_value___{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+}

@@ -6,6 +6,7 @@ import hdfc from "./Images/hdfcImage.jpg";
 import Adani from "./Images/Adani_2012_logo.png";
 import StockImage from "./Component/StockImage/StockImage";
 
+
 function Home() {
   return (
     <>
@@ -46,6 +47,15 @@ function Home() {
         <button className="explore_now_btn">
           Explore Now <FaArrowRight className="rigth_arrow_icon" />
         </button>
+      </div>
+
+      <div className="gain_looser_btn_div">
+        <button className="Top_Gainer_btn top_btn">Top Gainer</button>
+        <button className="Top_Looser_btn top_btn">Top Looser</button>
+      </div>
+
+      <div className="TOP_gainer_api">
+        <h1>top companies</h1>
       </div>
     </>
   );

@@ -54,7 +54,12 @@
     gap: 5px;
     width: max-content;
     border: 1px solid rgba(0, 0, 0, 0.192);
+    background-color: white;
     padding: 5px;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 0.8s;
+}
+.full_stockImage_div:hover{
+    transform: scale(1.03);
 }
